@@ -1,0 +1,31 @@
+/* BROWSE CATEGORY SECTION */
+.browse-category-btn {
+  background-color: #33d281;
+}
+
+/* PAGES WITHOUT DROPDOWN */
+.page-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.title-text {
+  color: black;
+}
+
+/* CONTACT NUMBER SECTION */
+.contact-section {
+  border-left: 2px solid;
+}
+.phone-icon {
+  padding-top: 0.4rem;
+}
+.phone-number {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.07rem;
+}
+.contact-time {
+  font-size: 0.7rem;
+  color: red;
+}

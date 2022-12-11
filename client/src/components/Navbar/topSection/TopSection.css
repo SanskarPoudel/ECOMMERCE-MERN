@@ -1,0 +1,37 @@
+/* LOGO SECTION */
+
+.logo-text {
+  font-weight: 500;
+  padding-left: 0.4rem;
+  font-size: 1.5rem;
+}
+
+/* SEARCH SECTION */
+.card-section {
+  height: 40px;
+}
+
+.search-category {
+  color: black;
+  font-weight: 500;
+}
+
+.search-input {
+  height: 28px;
+  display: block;
+}
+
+/* CATEGORIES */
+.categories-box {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: 42px;
+}
+
+.category {
+  color: red;
+}
+
+/* LAST SECTION */
+.text-section {
+  color: red;
+}
