@@ -23,7 +23,7 @@ export default function Search() {
             {categories.map((category) => {
               return (
                 <Link class="dropdown-item" href="#">
-                  {category}
+                  {category.name}
                 </Link>
               );
             })}

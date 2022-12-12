@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { NavContext } from "../NavContext";
 import "./BottomSection.css";
 export default function BrowseCategories() {
-  const { categories} = useContext(NavContext);
+  const { categories } = useContext(NavContext);
   return (
     <div>
       <div className="dropdown">
@@ -26,10 +26,12 @@ export default function BrowseCategories() {
           Browse All Categories
         </button>
         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          {categories.map((category)=>{
-            return(<Link className="dropdown-item" href="0">
-            {category}
-          </Link>)
+          {categories.map((category) => {
+            return (
+              <Link className="dropdown-item" href="0">
+                {category.name}
+              </Link>
+            );
           })}
         </div>
       </div>
