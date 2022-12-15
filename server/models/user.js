@@ -8,18 +8,18 @@ const userSchema = new mongoose.Schema({
   },
   email: {
     type: String,
-    required: [true, "Please Enter an E-mail"],
+    required: [true, "E-mail is required"],
     unique: true,
-    validate: [isEmail, "Please Enter valid E-mail"],
+    validate: [isEmail, "Enter an valid E-mail"],
   },
   password: {
     type: String,
-    required: [true, "Please Enter Password"],
-    minlength: [6, "Enter password longer than 6 characters"],
+    required: [true, "Password is Required"],
+    minlength: [6, "Minimum length of password is 6 character"],
   },
   termsChecked: {
     type: String,
-    required: [true, "Please agree with the terms and conditions"],
+    required: [true, "Read and agree with the terms and conditions"],
     enum: ["true"],
   },
 });

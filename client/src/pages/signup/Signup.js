@@ -44,6 +44,7 @@ export default function Signup() {
     fetch("http://localhost:8000/api/v1/signup", {
       method: "POST",
       body: JSON.stringify(userObj),
+      credentials: "include",
       headers: {
         "Content-Type": "application/json",
       },
@@ -54,7 +55,7 @@ export default function Signup() {
         console.log(err);
       });
   };
-  console.log(errorData);
+
   return (
     <div>
       <section className="vh-100 pt-2 pb-4" style={{ background: "#eee" }}>
