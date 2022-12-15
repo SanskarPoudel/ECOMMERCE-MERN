@@ -14,7 +14,7 @@ module.exports.categories_post = async (req, res) => {
   const { name } = req.body;
   try {
     const category = await Categories.create({ name });
-    res.status(201).json(category);
+    res.status(201).json(category.populate("category"));
   } catch (err) {
     console.log(err);
   }

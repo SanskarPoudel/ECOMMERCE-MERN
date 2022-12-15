@@ -6,7 +6,7 @@ import Search from "./Search";
 export default function TopSection() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light  border-bottom">
+      <nav className="navbar navbar-expand-lg navbar-light   border-bottom">
         <div className="container d-flex align-items-center">
           <Logo />
           <Search />

@@ -8,16 +8,16 @@ import ContactNumber from "./ContactNumber";
 export default function BottomSection() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light  border-bottom">
+      <nav className="navbar navbar-expand-lg navbar-light   border-bottom">
         <div className="container d-flex align-items-center">
           <BrowseCategories />
 
           <PagesWithoutDropdown title={"Home"} pageLink={"/home"} />
           <PagesWithoutDropdown title={"About"} pageLink={"/about"} />
-          <PagesWithoutDropdown title={"Shop"} pageLink={"/shop"}/>
+          <PagesWithoutDropdown title={"Shop"} pageLink={"/shop"} />
           <PagesWithoutDropdown title={"Blog"} pageLink={"/blog"} />
           <PagesWithoutDropdown title={"Our team"} pageLink={"/team"} />
-          <PagesWithoutDropdown title={"Contact"} pageLink={"/contact"}/>
+          <PagesWithoutDropdown title={"Contact"} pageLink={"/contact"} />
 
           <div className="d-flex flex-row">
             <Icons icon={<CiFacebook />} />
